@@ -2,7 +2,7 @@
 
 This REST API, originally authored by @jod35, has been enhanced to incorporate New Relic Python instrumentation. It serves as a demonstration of utilizing FastAPI with Async SQLAlchemy and PostgreSQL. Original credits can be found in [this video](https://youtu.be/nC9ob8xM3AM).
 
-## Running the Code Locally
+## Running the Code Locally on Python 3.9.10
 - Set up a ```DATABASE_URL``` environment variable as follows and ensure that this URI is a ```postgresql+asyncpg``` schema database string.
 ```
 postgresql+asyncpg://sally:sallyspassword@dbserver.example:5555/userdata
